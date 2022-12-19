@@ -1,0 +1,96 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    padding: 0 15px;
+}
+main {
+    padding: 0 15px;
+}
+.message-request {
+    background-color: #f6f9fc;
+    display: inline-block;
+    padding: 30px 20px;
+}
+.message-request h2 {
+    display: flex;
+    align-items: center;
+    margin: 0 0 15px;
+    background-color: #fff;
+    border: 1px solid #7691ad;
+    padding: 5px 15px;
+    border-radius: 2px;
+    font-size: 24px;
+}
+.message-request h2:before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background: url("heading.svg") center no-repeat;
+    background-size: 24px;
+}
+.message-request .content {
+    width: 100%;
+}
+.message-request .author {
+    font-size: 14px;
+}
+.message-request .meta {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+    color: #aaa;
+}
+textarea:read-only {
+    background: transparent;
+    border-color: #ddd;
+}
+form {
+    background-color: #f6f9fc;
+    display: inline-block;
+    padding: 30px 20px;
+    min-width: 350px;
+}
+.field-group {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2px;
+}
+.field-group label {
+    font-weight: bold;
+    display: inline-block;
+    width: 70px;
+    font-size: 14px;
+}
+.field-group input, .field-group textarea {
+    flex: 1;
+    min-height: 25px;
+}
+input[type="submit"] {
+    height: 35px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #04AA6D;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    border-radius: 3px;
+    color: #FFF;
+    margin: 10px 0 0 70px;
+}

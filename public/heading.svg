@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 156.14 163.62" width="86px" height="90px">
+  <defs>
+    <style>
+      .cls-1 {
+        fill:none;
+      }
+      .cls-2 {
+        fill:#ff7a59;
+        clip-path:url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(0 0)">
+      <rect class="cls-1" width="156.14" height="163.62"/>
+    </clipPath>
+  </defs>
+  <title>Logo - Sprocket</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g class="cls-2">
+      <g class="cls-2">
+        <path d="M120,53.85V34.37a15,15,0,0,0,8.65-13.52v-.45a15,15,0,0,0-15-15h-.45a15,15,0,0,0-15,15v.45a15,15,0,0,0,8.65,13.52V53.85a42.48,42.48,0,0,0-20.19,8.89L33.19,21.13a16.75,16.75,0,0,0,.6-4.21A16.9,16.9,0,1,0,16.88,33.79a16.72,16.72,0,0,0,8.32-2.26L77.81,72.46a42.61,42.61,0,0,0,.65,48l-16,16a13.74,13.74,0,0,0-4-.65,13.88,13.88,0,1,0,13.88,13.89,13.7,13.7,0,0,0-.64-4l15.83-15.83A42.68,42.68,0,1,0,120,53.85m-6.56,64.06A21.9,21.9,0,1,1,135.33,96a21.9,21.9,0,0,1-21.9,21.9" transform="translate(0 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>
